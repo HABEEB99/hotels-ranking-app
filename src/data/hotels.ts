@@ -1,0 +1,78 @@
+import { IHotelProps } from "@/interfaces/hotel";
+
+const hotelsData: IHotelProps[] = [
+  {
+    id: crypto.randomUUID(),
+    name: "Grand Palace Hotel",
+    country: "United States",
+    address: "123 Main Street, New York, NY",
+    category: 3,
+    images: ["/img-1.jpg"],
+    dateCreated: Date.now(),
+  },
+  {
+    id: crypto.randomUUID(),
+    name: "Oceanview Resort",
+    country: "Australia",
+    address: "456 Beachside Lane, Sydney",
+    category: 2,
+    images: ["/img-2.jpg"],
+    dateCreated: Date.now(),
+  },
+  {
+    id: crypto.randomUUID(),
+    name: "Mountain Escape Lodge",
+    country: "Switzerland",
+    address: "789 Alpine Road, Zurich",
+    category: 5,
+    images: ["/img-3.jpg"],
+    dateCreated: Date.now(),
+  },
+  {
+    id: crypto.randomUUID(),
+    name: "City Center Inn",
+    country: "United Kingdom",
+    address: "101 High Street, London",
+    category: 3,
+    images: ["/img-4.jpg"],
+    dateCreated: Date.now(),
+  },
+  {
+    id: crypto.randomUUID(),
+    name: "Tropical Paradise Hotel",
+    country: "Maldives",
+    address: "567 Island Drive, Male",
+    category: 1,
+    images: ["/img-5.jpg"],
+    dateCreated: Date.now(),
+  },
+  {
+    id: crypto.randomUUID(),
+    name: "Historic Heritage Hotel",
+    country: "India",
+    address: "789 Fort Road, Jaipur",
+    category: 2,
+    images: ["/img-6.jpg"],
+    dateCreated: Date.now(),
+  },
+  {
+    id: crypto.randomUUID(),
+    name: "Modern Luxury Suites",
+    country: "Canada",
+    address: "234 Bay Street, Toronto",
+    category: 4,
+    images: ["/img-7.jpg"],
+    dateCreated: Date.now(),
+  },
+  {
+    id: crypto.randomUUID(),
+    name: "Desert Oasis Retreat",
+    country: "United Arab Emirates",
+    address: "891 Sand Dunes Ave, Dubai",
+    category: 5,
+    images: ["/img-8.jpg"],
+    dateCreated: Date.now(),
+  },
+];
+
+export default hotelsData;
