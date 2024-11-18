@@ -5,5 +5,5 @@ export interface IHotelProps {
   address: string;
   category: number;
   images: string[];
-  dateCreated: number;
+  dateCreated: number | null;
 }
